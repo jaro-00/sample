@@ -1,14 +1,7 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Sidebar from "./components/sidebar";
 export default function Home() {
   return (
-    <main>
-      <Sidebar />
-      <Hero />
-      <About />
-      <Footer />
-    </main>
+    <section className="bg-gray-200 h-screen flex items-center justify-center">
+      <h1 className="text-4xl text-red-600">Tailwind is Working!</h1>
+    </section>
   );
 }
